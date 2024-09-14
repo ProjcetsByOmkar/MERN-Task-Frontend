@@ -1,0 +1,92 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode-toggle {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #0056b3;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.message {
+  color: green;
+  font-weight: bold;
+}
+
+.list-container {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.list-item:hover {
+  background-color: #f0f0f0;
+}
+
+.selected {
+  background-color: #d0e0f0;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+li {
+  list-style: none;
+}
